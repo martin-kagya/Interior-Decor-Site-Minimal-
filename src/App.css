@@ -97,7 +97,7 @@
 }
 
 .interior-design{
-    background-image: url("./image/michael-oxendine-GHCVUtBECuY-unsplash.jpg");
+    background-image: url("/image/michael-oxendine-GHCVUtBECuY-unsplash.jpg");
     width: 100%;
     position: relative;
     height: 100vmin;
@@ -108,7 +108,7 @@
     object-fit: cover;
 }
 .architecture{
-    background-image: url("./image/coline-beulin-oLWGI-Q76Yc-unsplash.jpg");
+    background-image: url("/image/coline-beulin-oLWGI-Q76Yc-unsplash.jpg");
     width: 100%;
     position: relative;
     height: 100vmin;
@@ -129,7 +129,7 @@
 }
 
 .kitchen-decor{
-    background-image: url("./image/jakob-owens-LFP5_onmTcs-unsplash.jpg");
+    background-image: url("/image/jakob-owens-LFP5_onmTcs-unsplash.jpg");
     width: 100%;
     position: relative;
     height: 100vmin;
