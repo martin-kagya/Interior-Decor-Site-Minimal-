@@ -19,7 +19,7 @@ body{
   background-color: var(--bg);
 }
 .image1{
-  background-image: url("../Image/jason-wang-5MG8cQbw-T8-unsplash.jpg");
+  background-image: url("../image/jason-wang-5MG8cQbw-T8-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
