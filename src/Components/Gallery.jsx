@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import becca from "../image/becca-tapert-dO3qTKxwik0-unsplash.jpg";
 
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
@@ -27,7 +26,7 @@ function Gallery() {
         <div className="gallery-container" id="gallery">
             <h2>OUR GALLERY</h2>
             <div className="gallery">
-                <div className="imageStyle" style={{ backgroundImage: `url(${becca})` }}></div>
+                <div className="imageStyle" style={{ backgroundImage: `url(${imageLinks[imageIndex]})` }}></div>
             </div>
             <div className="button-container">
                 <button className="gallery-button" onClick={PreviousImage}><MdArrowBackIos /></button>
