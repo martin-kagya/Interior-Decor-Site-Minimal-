@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
 const imageLinks = [
-    "/image/becca-tapert-dO3qTKxwik0-unsplash.jpg",
-    "/image/bench-accounting-nvzvOPQW0gc-unsplash.jpg",
-    "/image/collov-home-design-js8AQlw71HA-unsplash.jpg",
-    "/image/kam-idris-kyt0PkBSCNQ-unsplash.jpg",
-    "/image/michael-oxendine-GHCVUtBECuY-unsplash.jpg",
-    "/image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg",
-    "/image/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+    "image/becca-tapert-dO3qTKxwik0-unsplash.jpg",
+    "image/bench-accounting-nvzvOPQW0gc-unsplash.jpg",
+    "image/collov-home-design-js8AQlw71HA-unsplash.jpg",
+    "image/kam-idris-kyt0PkBSCNQ-unsplash.jpg",
+    "image/michael-oxendine-GHCVUtBECuY-unsplash.jpg",
+    "image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg",
+    "image/spacejoy-YqFz7UMm8qE-unsplash.jpg"
 
 ];
 
