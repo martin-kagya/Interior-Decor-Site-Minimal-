@@ -159,3 +159,80 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+@media screen and (min-width: 1026px){
+    p{
+        font-size: 1.2rem;
+    }
+    .about-container{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        line-height: 2;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        margin-top: 4rem;
+    }
+    
+    .flex1 > h2{
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem;
+    }
+    .flex2 > h2{
+        font-size: 2rem;
+        padding: 2rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1026px){
+    .services-container > h2{
+        font-size: 2rem;
+    }
+    .services-flex{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+    .interior-design{
+        grid-column: span 2;
+    }
+    .architecture{
+        grid-column: span 3;
+    }
+    .kitchen-decor{
+        grid-row-start:  1;
+    }
+    .form-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .large-grid{
+        order: 2;
+        grid-row: span 3;
+    }
+   .emailinput{
+    order: 3;
+   }
+   .nameinput{
+    order: 1;
+   }
+   .subject{
+    order: 4;
+   }
+   .emailinput::placeholder{
+    font-size: 1.0rem !important;
+   }
+    .nameinput::placeholder{
+     font-size: 1.0rem !important;
+    }
+    .subject::placeholder{
+     font-size: 1.0rem !important;
+    }
+    .large-grid::placeholder{
+     font-size: 1.0rem !important;
+    }
+
+}

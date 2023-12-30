@@ -30,12 +30,39 @@ body{
   height: 90vmin;
 }
 
+@media screen and (min-width: 1026px){
+  .navbar{
+    padding-top: 2rem;
+    position: fixed;
+    
+  }
+  .testimonial-text, .testimonial-person{
+    font-size: 1.5rem !important;
+
+  }
+  .home{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    background-color: var(--bg);
+    font-family: var(--font);
+  }
+  .flexed-item1{
+    gap: 5rem !important;
+  }
+  .paragraph1{
+    font-size: 4.5rem !important;
+  }
+  .paragraph2{
+    font-size: 1.2rem !important;
+  }
+}
 .navbar{
   position: fixed;
   top: 0;
-  padding: 1rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   align-items: center;
   font-family: var(--font);
@@ -133,6 +160,10 @@ body{
   background-color: var(--bg);
 }
 
+.flex1 > h2, .flex2 > h2{
+  text-align: center;
+  padding: 2rem;
+}
 .gallery-container{
   margin-top: 4rem;
   display: flex;
@@ -164,4 +195,12 @@ body{
   100%{
     opacity: 0;
   }
+}
+@media screen and (min-width: 1026px){
+ .imageStyle{
+   margin-left: 10%;
+   width: 80%;
+   object-fit: cover;
+   border-radius: 10px;
+ }
 }

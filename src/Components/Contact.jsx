@@ -8,9 +8,9 @@ function Contact (){
                 <h2>CONTACT US</h2>
                 <form>
                     <div className="form-container">
-                        <input type="text" placeholder="Name" />
-                        <input type="text" placeholder="Email" />
-                        <input type="text" placeholder="Subject" />
+                        <input type="text" className="nameinput" placeholder="Name" />
+                        <input type="text" className="emailinput" placeholder="Email" />
+                        <input type="text" className="subject" placeholder="Subject" />
                         <textarea placeholder="Message" className="large-grid"></textarea>
                     </div>
                     <button className="send-button">Send</button>

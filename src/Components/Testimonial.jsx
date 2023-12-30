@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { CCarouselItem } from '@coreui/react'
 import "../index.css";
 
 function Testimonial(){
@@ -26,7 +25,7 @@ function Testimonial(){
         setAnimationClass('testimonial-animation')
         const interval = setInterval(() => {
             setCounter(counter => (counter + 1) % testimonialTexts.length)
-        }, 5000)
+        }, 10000)
         return () => clearInterval(interval)
     }, [])
     function showTestimonial (){
