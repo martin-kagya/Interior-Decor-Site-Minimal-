@@ -122,7 +122,7 @@ body{
 }
 .testimonial-animation{
   opacity: 0;
-  animation: fadein 2s ease-in-out 1s infinite alternate;
+  animation: fadein 5s ease-in-out 1s infinite alternate;
 }
 @keyframes fadein{
   0%{

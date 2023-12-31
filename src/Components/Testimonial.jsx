@@ -25,7 +25,7 @@ function Testimonial(){
         setAnimationClass('testimonial-animation')
         const interval = setInterval(() => {
             setCounter(counter => (counter + 1) % testimonialTexts.length)
-        }, 10000)
+        }, 5000)
         return () => clearInterval(interval)
     }, [])
     function showTestimonial (){
